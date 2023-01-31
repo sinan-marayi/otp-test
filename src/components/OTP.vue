@@ -46,7 +46,7 @@
       </div>
     
     
-    <button class="btn" :on-click="verify()">Verify</button>
+    <button class="btn" >Verify</button>
   </div>
 </template>
 
@@ -55,14 +55,6 @@ export default {
   name: "OTP",
   props: {
     msg: String,
-  },
-  data(){
-    return{
-      isverified:false
-    }
-  },
-  mounted:{
-
   },
   methods: {
     changeFocus: function( e,prev, current, next) {
